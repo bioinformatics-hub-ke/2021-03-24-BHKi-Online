@@ -12,24 +12,31 @@ The schedule for the different curricula are listed here:
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr>
-	<td>Before starting</td>
-	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
-      </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
-      <tr>
-        <td>Afternoon</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-      </td></tr>
-      <tr> <td>Evening</td> <td>END</td> </tr>
+      <tr> <td>09:00 AM</td>  <td>Introductions - Instructors and participants </td> </tr>
+      <tr> <td>09:05 AM</td>  <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop Survey</a></td> </tr>
+      <tr> <td>09:15 AM</td>  <td><a href="https://datacarpentry.org/r-socialsci/setup.html" target="_blank">Check R Setup</a></td> </tr>
+      <tr> <td>09:35 AM</td>  <td><a href="https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html" target="_blank">1. Before we Start</a></td> </tr>
+	   
+      <tr> <td>10:15 AM</td>  <td><a href="https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html" target="_blank">2. Introduction to R</a></td> </tr>
+      <tr> <td>11:30 AM</td>  <td>Break</td> </tr>
+      <tr> <td>11:45 AM</td>  <td><a href="https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html" target="_blank">3. Starting with Data</a></td> </tr>
+	    
+      <tr> <td>12:55 PM</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>01:00 PM</td>  <td>END</td> </tr>
+
+    </table>
+  </div>
+	
+  <div class="col-md-6">
+    <h3>Day 2</h3>
+    <table class="table table-striped">
+     <tr> <td>09:00 AM</td>  <td>Data Up assessments and Review of Day 2</td> </tr>
+      <tr> <td>09:30 AM</td>  <td><a href="https://datacarpentry.org/R-ecology-lesson/03-dplyr.html" target="_blank">4. Data Wrangling with dplyr and tidyr</a></td> </tr>
+      <tr> <td>11:00 AM</td>  <td>Break</td> </tr>
+      <tr> <td>11:15 AM</td>  <td><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html" target="_blank">5. Data Visualisation with ggplot2</a></td> </tr>
+      <tr> <td>12:45 PM</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>12:50 PM</td>  <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-Workshop Survey</a></td> </tr>
+      <tr> <td>01:00 PM</td>  <td>END</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
@@ -98,31 +105,7 @@ The schedule for the different curricula are listed here:
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00 AM</td>  <td>Introductions - Instructors and participants </td> </tr>
-      <tr> <td>09:05 AM</td>  <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop Survey</a></td> </tr>
-      <tr> <td>09:15 AM</td>  <td><a href="https://datacarpentry.org/r-socialsci/setup.html" target="_blank">Check R Setup</a></td> </tr>
-      <tr> <td>09:35 AM</td>  <td><a href="https://datacarpentry.org/r-socialsci/00-intro/index.html" target="_blank">1. Before we Start</a></td> </tr>
-	   
-      <tr> <td>10:15 AM</td>  <td><a href="https://datacarpentry.org/r-socialsci/01-intro-to-r/index.html" target="_blank">2. Introduction to R</a></td> </tr>
-      <tr> <td>11:30 AM</td>  <td>Break</td> </tr>
-      <tr> <td>11:45 AM</td>  <td><a href="https://datacarpentry.org/r-socialsci/02-starting-with-data/index.html" target="_blank">3. Starting with Data</a></td> </tr>
-	    
-      <tr> <td>12:55 PM</td>  <td>Wrap-up</td> </tr>
-      <tr> <td>01:00 PM</td>  <td>END</td> </tr>
-
-    </table>
-  </div>
-	
-  <div class="col-md-6">
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-     <tr> <td>09:00 AM</td>  <td>Data Up assessments and Review of Day 2</td> </tr>
-      <tr> <td>09:30 AM</td>  <td><a href="https://datacarpentry.org/r-socialsci/03-dplyr-tidyr/index.html" target="_blank">4. Data Wrangling with dplyr and tidyr</a></td> </tr>
-      <tr> <td>11:00 AM</td>  <td>Break</td> </tr>
-      <tr> <td>11:15 AM</td>  <td><a href="https://datacarpentry.org/r-socialsci/04-ggplot2/index.html" target="_blank">5. Data Visualisation with ggplot2</a></td> </tr>
-      <tr> <td>12:45 PM</td>  <td>Wrap-up</td> </tr>
-      <tr> <td>12:50 PM</td>  <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-Workshop Survey</a></td> </tr>
-      <tr> <td>01:00 PM</td>  <td>END</td> </tr>
+     
 
     </table>
   </div>
